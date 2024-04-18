@@ -1,3 +1,7 @@
+body{
+    max-height: fit-content;
+}
+
 /* Custom Navbar Colors */
 .navbar-custom {
     background-color: #FFFFFF; /* Replace with your desired background color */
@@ -9,7 +13,6 @@
 .navbar-nav 
 .nav-link {
     color: #e55027; /* Replace with your desired text color */
-    border-bottom:;
 }
 
 .navbar-custom 
@@ -25,3 +28,9 @@ border-color: #D6DAC8; /* Replace with your desired border color for the toggler
 .nav-link:hover{
     background-color: #EFBC9B;
 }
+
+.nav-link{
+    border-bottom: solid;
+    border-color: #e55027;
+}
+
